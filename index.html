@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./style.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.4/jquery.validate.min.js"></script>
+
+<body>
+   <div class="w3-col s4 ">
+      <div class="w3-container w3-blue w3-card">
+         <h2>Input Form</h2>
+      </div>
+      <form class="w3-container w3-card" id="register-form">
+         <div class="form-group">
+            <label for="firstname">FirstName</label>
+            <input class="w3-input" type="text" name="firstname" id="first_name" class="form-control"></p>
+         </div>
+         <div class="form-group">
+            <label>Last Name</label>
+            <input class="w3-input" type="text" name="lastname" id="last_name" class="form-control"></p>
+         </div>
+         <div class="form-group">
+            <label>Email</label>
+            <input class="w3-input" type="text" name="email" id="email" class="form-control"></p>
+         </div>
+         <div class="form-group">
+            <label>Country</label>
+            <select name="country" id="country" class="form-control">
+               <option value="">Select</option>
+               <option value="Australia">Australia</option>
+               <option value="India">India</option>
+               <option value="United States">United States</option>
+               <option value="United Kingdom">United Kingdom</option>
+            </select>
+         </div>
+         <div class="form-group">
+            <input type="checkbox" id="check" name="check" value="check">
+            <label type="checkbox" for="check">I Agree</label>
+         </div>
+         <div class="form-group">
+            <input class="btn btn-primary" type="submit" name="submit" id="save">
+         </div>
+      </form>
+      <br>
+      <table class="w3-table-all" id="myTable">
+         <thead>
+            <tr class="w3-blue">
+               <th nowrap>Sl.No</th>
+               <th nowrap>First Name</th>
+               <th nowrap>Last name</th>
+               <th nowrap>Email</th>
+               <th nowrap>Country</th>
+            </tr>
+         </thead>
+         <tbody>
+         </tbody>
+      </table>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
